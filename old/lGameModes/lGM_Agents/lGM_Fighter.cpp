@@ -177,9 +177,9 @@ void LoadCharacterAnim(RM &resource_manager,const std::string &name,GLuint Textu
         Textures[1][4] = resource_manager.GetImage("Content/Images/"+name+"/back_dead.bmp");
         Textures[2][4] = resource_manager.GetImage("Content/Images/"+name+"/right_dead.bmp");
 
-        Textures[0][5] = resource_manager.GetImage("Content/Images/"+name+"/Portrait.bmp");
-        Textures[1][5] = resource_manager.GetImage("Content/Images/"+name+"/Portrait.bmp");
-        Textures[2][5] = resource_manager.GetImage("Content/Images/"+name+"/Portrait.bmp");
+        Textures[0][5] = 0;//resource_manager.GetImage("Content/Images/"+name+"/Portrait.bmp");
+        Textures[1][5] = 0;//resource_manager.GetImage("Content/Images/"+name+"/Portrait.bmp");
+        Textures[2][5] = 0;//resource_manager.GetImage("Content/Images/"+name+"/Portrait.bmp");
 
         Textures[0][6] = resource_manager.GetImage("Content/Images/"+name+"/front_atk0.bmp");
         Textures[1][6] = resource_manager.GetImage("Content/Images/"+name+"/front_atk1.bmp");
