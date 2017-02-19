@@ -1,0 +1,26 @@
+MapName "Test"
+
+BgWidth 800.0
+BgHeight 600.0
+
+BgTexture "Background.bmp"
+
+TerrainWidth 5
+TerrainHeight 10
+
+TileSize 120.0
+
+{
+    { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }
+    { 1 , "Tile.bmp" }  { 0 , }  { 0 , }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }
+    { 1 , "Tile.bmp" }  { 0 , }  { 0 , }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }
+    { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }  { 0 , }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }
+    { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }
+    { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }
+    { 1 , "Tile.bmp" }  { 0 , }  { 0 , }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }
+    { 1 , "Tile.bmp" }  { 0 , }  { 0 , }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }
+    { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }
+    { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }  { 1 , "Tile.bmp" }
+}
+
+End

@@ -1,0 +1,21 @@
+MapName "Test"
+
+BgWidth 800.0
+BgHeight 600.0
+
+BgTexture "Content/Images/Background.bmp"
+
+TerrainWidth 7
+TerrainHeight 5
+
+TileSize 120.0
+
+{
+    { 1 , "Content/Images/Tile.bmp" }  { 1 , "Content/Images/Tile.bmp" }  { 1 , "Content/Images/Tile.bmp" }  { 1 , "Content/Images/Tile.bmp" }  { 1 , "Content/Images/Tile.bmp" } { 1 , "Content/Images/Tile.bmp" } { 1 , "Content/Images/Tile.bmp" }
+    { 1 , "Content/Images/Tile.bmp" }  { 0 , }  { 0 , }  { 1 , "Content/Images/Tile.bmp" }  { 1 , "Content/Images/Tile.bmp" } { 1 , "Content/Images/Tile.bmp" } { 1 , "Content/Images/Tile.bmp" }
+    { 1 , "Content/Images/Tile.bmp" }  { 0 , }  { 0 , }  { 1 , "Content/Images/Tile.bmp" }  { 1 , "Content/Images/Tile.bmp" } { 1 , "Content/Images/Tile.bmp" } { 1 , "Content/Images/Tile.bmp" }
+    { 1 , "Content/Images/Tile.bmp" }  { 1 , "Content/Images/Tile.bmp" }  { 0 , }  { 1 , "Content/Images/Tile.bmp" }  { 1 , "Content/Images/Tile.bmp" } { 1 , "Content/Images/Tile.bmp" } { 1 , "Content/Images/Tile.bmp" }
+    { 1 , "Content/Images/Tile.bmp" }  { 1 , "Content/Images/Tile.bmp" }  { 1 , "Content/Images/Tile.bmp" }  { 1 , "Content/Images/Tile.bmp" }  { 1 , "Content/Images/Tile.bmp" } { 1 , "Content/Images/Tile.bmp" } { 1 , "Content/Images/Tile.bmp" }
+}
+
+End

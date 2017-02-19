@@ -1,0 +1,16 @@
+
+Weapon
+    Name "Normal"
+    Speed 300.0
+    Damage 10.0
+    RechargeSpeed 3.0
+    Price 50
+End
+
+Weapon
+    Name "Boss"
+    Speed 250.0
+    Damage 30.0
+    RechargeSpeed 1.0
+    Price 120
+End

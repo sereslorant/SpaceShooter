@@ -1,0 +1,57 @@
+
+Ship
+    Name "Player"
+    Speed ( 260.0 , 260.0 )
+    MaxHealth 100.0
+    MaxShield 100.0
+    ShieldRegenRate 0.5
+    Width 100.0
+    Height 100.0
+    Color ( 1.0 , 1.0 , 1.0 , 1.0 )
+    Texture "MechaFasz.bmp"
+    Price 500
+    nWeapons 3
+    {
+        { ( 0.0 , -30.0 ) , ( 0.0 , -1.0 ) }
+        { ( 20.0 , 0.0 ) , ( 0.0 , -1.0 ) }
+        { ( -20.0 , 0.0 ) , ( 0.0 , -1.0 ) }
+    }
+End
+
+Ship
+    Name "Normal"
+    Speed ( 170.0 , 200.0 )
+    MaxHealth 30.0
+    MaxShield 30.0
+    ShieldRegenRate 0.0
+    Width 100.0
+    Height 100.0
+    Color ( 1.0 , 1.0 , 1.0 , 1.0 )
+    Texture "Tunderfaszcsy.bmp"
+    Price 100
+    nWeapons 3
+    {
+        { ( 0.0 , -30.0 ) , ( 0.0 , -1.0 ) }
+        { ( 20.0 , 0.0 ) , ( 0.0 , -1.0 ) }
+        { ( -20.0 , 0.0 ) , ( 0.0 , -1.0 ) }
+    }
+End
+
+Ship
+    Name "Boss"
+    Speed ( 120.0 , 120.0 )
+    MaxHealth 1000.0
+    MaxShield 200.0
+    ShieldRegenRate 0.0
+    Width 300.0
+    Height 300.0
+    Color ( 1.0 , 1.0 , 1.0 , 1.0 )
+    Texture "BossFasz.bmp"
+    Price 1000
+    nWeapons 3
+    {
+        { ( 0.0 , -30.0 ) , ( 0.0 , -1.0 ) }
+        { ( 20.0 , 0.0 ) , ( 0.0 , -1.0 ) }
+        { ( -20.0 , 0.0 ) , ( 0.0 , -1.0 ) }
+    }
+End
