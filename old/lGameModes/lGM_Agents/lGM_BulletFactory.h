@@ -20,6 +20,8 @@ public:
 
 		Map.AddObject(ProjObject);
 		Agents.push_back(Projectile);
+		
+		return Projectile;
 	}
 
 	lGM_BulletFactory(lprotoMap &p_map,std::list<liAgent *> &agents)

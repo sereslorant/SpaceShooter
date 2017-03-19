@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.6)
 project(old)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_STANDARD 11)
 
 set(SS_GAME_DIR "./lGame")
 set(HANGAR_DIR "${SS_GAME_DIR}/lHangar")
