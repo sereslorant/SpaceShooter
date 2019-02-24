@@ -444,12 +444,12 @@ protected:
 		{
 			if(Cntrl != nullptr)
 			{
-				if((Cntrl->GetAxis(3)->GetValue() / (float)Cntrl->GetAxis(3)->GetMaxValue()) > 0.01)
+				if((Cntrl->GetAxis(1)->GetValue() / (float)Cntrl->GetAxis(1)->GetMaxValue()) > 0.01)
 				{
 					Player2->SetUp(false);
 					Player2->SetDown(true);
 				}
-				else if((Cntrl->GetAxis(3)->GetValue() / (float)Cntrl->GetAxis(3)->GetMaxValue()) < -0.01)
+				else if((Cntrl->GetAxis(1)->GetValue() / (float)Cntrl->GetAxis(1)->GetMaxValue()) < -0.01)
 				{
 					Player2->SetUp(true);
 					Player2->SetDown(false);
@@ -476,7 +476,7 @@ protected:
 					Player2->SetRight(false);
 				}
 
-				float DirX = Cntrl->GetAxis(1)->GetValue() / (float)Cntrl->GetAxis(1)->GetMaxValue();
+				float DirX = Cntrl->GetAxis(3)->GetValue() / (float)Cntrl->GetAxis(3)->GetMaxValue();
 				float DirY = Cntrl->GetAxis(4)->GetValue() / (float)Cntrl->GetAxis(4)->GetMaxValue();
 
 				float Len = DirX*DirX + DirY*DirY;
